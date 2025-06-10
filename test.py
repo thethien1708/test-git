@@ -172,6 +172,9 @@ class Game:
 
         pygame.quit()
 
+def do_nothing():
+    print("do nothing")
+    
 if __name__ == "__main__":
     game = Game()
     game.run()
